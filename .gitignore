@@ -9,3 +9,7 @@ __pycache__/
 
 # Variáveis de ambiente
 .env
+
+# Banco de dados local e arquivos temporários
+database.db
+uploads/
