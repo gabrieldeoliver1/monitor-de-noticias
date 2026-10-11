@@ -205,4 +205,4 @@ def export_terms_route():
         return jsonify({'status': f'Erro ao exportar termos: {str(e)}', 'success': False}), 500
 
 if __name__ == '__main__':
-    app.run(debug=True, threaded=True)
+    app.run(debug=os.environ.get('FLASK_DEBUG') == '1', threaded=True)
