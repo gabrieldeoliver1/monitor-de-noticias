@@ -1,0 +1,11 @@
+# Ambientes virtuais
+venv/
+.venv/
+env/
+
+# Arquivos gerados pelo Python
+__pycache__/
+*.py[cod]
+
+# Variáveis de ambiente
+.env
